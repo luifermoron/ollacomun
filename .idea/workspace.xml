@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b38fb9c-7924-48a9-9a3e-ee7ddd7adf36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/places/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ollacomun/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ollacomun/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ollacomun/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ollacomun/urls.py" afterDir="false" />
-    </list>
+    <list default="true" id="4b38fb9c-7924-48a9-9a3e-ee7ddd7adf36" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +13,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/places/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="15">
+              <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -41,6 +40,7 @@
         <option value="$PROJECT_DIR$/ollacomun/settings.py" />
         <option value="$PROJECT_DIR$/places/urls.py" />
         <option value="$PROJECT_DIR$/ollacomun/urls.py" />
+        <option value="$PROJECT_DIR$/places/models.py" />
       </list>
     </option>
   </component>
@@ -52,10 +52,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="753" />
-    <option name="y" value="99" />
+    <option name="x" value="67" />
+    <option name="y" value="27" />
     <option name="width" value="677" />
-    <option name="height" value="654" />
+    <option name="height" value="873" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -87,7 +87,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../mypath/mypath" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../aritectNotification" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -161,9 +162,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1533" height="875" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966888" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24966888" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -176,7 +176,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.6018767" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.6018767" />
       <window_info anchor="bottom" id="Python Console" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -216,8 +216,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/places/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="15">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
