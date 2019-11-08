@@ -19,7 +19,6 @@ from places.views import GetPlaces, PlaceView
 from django.contrib import admin
 
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
     path('', GetPlaces.as_view(), name='places'),
-    path('place/', PlaceView.as_view(), name='place'),
+    url(r'^admin/', admin.site.urls),
 ]
