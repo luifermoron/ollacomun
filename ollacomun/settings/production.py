@@ -2,7 +2,7 @@ import os
 
 # Security Settings
 SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', 'my-secret-key')
-ALLOWED_HOSTS = os.getenv('DJANGO_ALLOWED_HOSTS', 'localhost').split(',')
+ALLOWED_HOSTS = ['*']
 DEBUG = True
 
 # Database

@@ -37,4 +37,4 @@ six==1.12.0
 sqlparse==0.3.0
 uritemplate==3.0.0
 urllib3==1.25.3
-corsheaders==3.2.0
+django-cors-headers==3.2.1
