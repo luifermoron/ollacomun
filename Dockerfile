@@ -1,13 +1,13 @@
 FROM python:3.8.6-slim
 
 # Dependencies and Config
-RUN useradd -ms /bin/bash bolivia
+##RUN useradd -ms /bin/bash bolivia
 
 # Create user
-USER bolivia
+#USER bolivia
 
 # Working directory
-WORKDIR /home/bolivia
+#WORKDIR /home/bolivia
 
 # Install requirements
 COPY requirements.txt .
