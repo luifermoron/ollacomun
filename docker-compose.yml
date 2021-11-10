@@ -1,0 +1,33 @@
+version: "3.8"
+
+services:
+  db:
+    container_name: db
+    image: postgres
+    environment:
+      - POSTGRES_DB=aquaman
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+  backend:
+    container_name: backend
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000
+    env_file:
+      - backend.env
+    environment:
+      - DATABASE_HOST=db
+      - DATABASE_PORT=5432
+      - DATABASE_NAME=aquaman
+      - DATABASE_USER=postgres
+      - DATABASE_PASSWORD=postgres
+    volumes:
+      - ./static:/home/bolivia/static
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+
+volumes:
+  pg_data:
