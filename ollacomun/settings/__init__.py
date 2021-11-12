@@ -5,6 +5,6 @@ from .production import *
 
 # Import Local if exists
 try:
-    pass
+    from .local import *
 except ModuleNotFoundError as mnf:
     print(mnf)

@@ -1,12 +1,13 @@
 from django.db import models
 import uuid
 
+from django.core.validators import MaxLengthValidator
 
 # Create your models here.
 
 class Place(models.Model):
     name = models.CharField(max_length=255, null=True)
-    description = models.CharField(max_length=255, null=True)
+    description = models.TextField(max_length=250, blank=True, default='', validators=[MaxLengthValidator(250)])
     longitude = models.CharField(max_length=255, null=True)
     latitude = models.CharField(max_length=255, null=True)
     is_active = models.BooleanField(default=True)

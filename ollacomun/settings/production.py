@@ -3,7 +3,7 @@ import os
 # Security Settings
 SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', 'my-secret-key')
 ALLOWED_HOSTS = os.getenv('DJANGO_ALLOWED_HOSTS', 'localhost').split(',')
-DEBUG = True
+DEBUG = False
 
 CORS_ORIGIN_ALLOW_ALL = True
 
