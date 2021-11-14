@@ -14,7 +14,7 @@ docker-compose run backend python manage.py migrate
 echo "### Collect Static ###"
 docker-compose run backend python manage.py collectstatic
 
-#echo "### Move Statics ###"
-##rm -rf /var/www/static
-#cp -R /root/apps/backend/static /var/www/static
-#chgrp -R www-data /var/www/static
+echo "### Move Statics ###"
+sudo rm -rf /var/www/static
+sudo cp -R /home/ubuntu/ollacomun/static /var/www/static
+sudo chgrp -R www-data /var/www/static
