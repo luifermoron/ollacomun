@@ -3,7 +3,7 @@ git pull origin master
 
 echo "### Stop old version ###"
 docker-compose down
-rm -rf /root/apps/backend/static
+rm -rf /home/ubuntu/ollacomun/static
 
 echo "### Start Server ###"
 docker-compose up --build -d

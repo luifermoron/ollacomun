@@ -19,3 +19,10 @@ class Place(models.Model):
     def generate_uuid(self):
         self.uuid = uuid.uuid4()
         self.save(update_fields=["uuid"])
+
+class Image(models.Model):
+    place = models.ForeignKey(Place, related_name='images', on_delete=models.CASCADE, null=True, blank=True)
+    image_id= models.CharField(max_length=255, null=True, blank=True)
+
+    def __str__(self):
+        return f"{self.image_id}"
